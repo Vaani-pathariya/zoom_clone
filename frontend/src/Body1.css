@@ -1,0 +1,32 @@
+
+.whole{
+    display: flex;
+    margin-left: 80px;
+}
+.textt{
+    width: 40%;
+}
+.headd{
+    font-size: 80px;
+    font-weight: 500;
+}
+.smallhead{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.bt1{
+    padding: 7px 15px;
+     border: 2px solid #1075f0;
+     border-radius: 30px;
+     font-size: large;
+     color: white;
+     background-color: #0d70e9;
+     margin-right: 65px;
+}
+.bt2{
+    border: white;
+    color: #0453b4;
+    font-size: large;
+    font-weight: 500;
+    background-color: white;
+}
