@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import img1 from './imagezoom.png'
 import './Body1.css'
 export class Body1 extends Component {
   render() {
@@ -28,7 +27,7 @@ export class Body1 extends Component {
         
 
         <div className="pictures">
-            <img src={img1} alt="img" />
+            
         </div>
         
       </div>
