@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Navbar.css'
+import './Products.js'
 import logo from './zoom_logo.svg'
 export class Navbar extends Component {
   render() {
@@ -37,7 +38,7 @@ export class Navbar extends Component {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Products</a>
+          <a className="nav-link" aria-current="page" href="./Products.js">Products</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" aria-current="page" href="#">Solutions</a>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Body2.css'
+import wheel from './pics/comp4.webp'
 import img11 from './pics/logo1-1.png'
 import img12 from './pics/logo1-2.png'
 import img13 from './pics/logo1-3.png'
@@ -67,7 +68,7 @@ export class Body2 extends Component {
       {/* next component */}
       <div className="comp4">
         <div className="left1">
-          {/* img aegi */}
+          <img  className="wheel"src={wheel} alt="wheel"  />
         </div>
         <div className="right1">
         <div className="divv1">
@@ -77,8 +78,9 @@ export class Body2 extends Component {
         Securely connect and collaborate so you can work better together. Simple to manage and delightful to use, Zoom powers the modern workforce.
         </div>
         <div className="divv3">
-          Discover the Possibilities
+          Discover the Possibilities<br /><br />
         </div>
+        
         </div>
       </div>
 
@@ -97,7 +99,15 @@ export class Body2 extends Component {
         </div>
 
         <div className="right2">
-          {/* buttons */}
+          <div className="right2left">
+          <button className="btns">Education</button>
+          <br /><button className="btns">Government</button><br />
+          <button className="btns">Manufacturing</button><br /></div>
+          <div className="right2right">
+          <button className="btns">Financial Services</button><br />
+          <button className="btns">Healthcare</button><br />
+          <button className="btns">Retail</button>
+          </div><br />
         </div>
       </div>
       </>
